@@ -9,7 +9,7 @@ For general instructions see https://pre-commit.com/
     rev: v0.1.0
     hooks:
       - id: cargo-fmt
-      - id: cargo-udep
+      - id: cargo-udeps
       - id: cargo-audit
       - id: cargo-check
       - id: cargo-clippy
@@ -20,7 +20,7 @@ For general instructions see https://pre-commit.com/
 ---
 **NOTES**
 
-* ```cargo-udep``` needs the **nightly toolchain** and ```cargo-udep``` installed (```cargo install cargo-udep```)
+* ```cargo-udeps``` needs the **nightly toolchain** and ```cargo-udeps``` installed (```cargo install cargo-udeps```)
 * ```cargo-audit``` needs ```cargo-audit``` installed (```cargo install cargo-audit```)
 
 ---
