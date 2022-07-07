@@ -5,19 +5,19 @@
   types: [rust]
   pass_filenames: false
 - id: cargo-audit
-  name: carg audit
+  name: cargo audit
   entry: cargo audit
   language: system
   types: [rust]
   pass_filenames: false
 - id: cargo-udeps
-  name: carg udeps
+  name: cargo udeps
   entry: cargo +nightly udeps
   language: system
   types: [rust]
   pass_filenames: false
 - id: cargo-check
-  name: carg check
+  name: cargo check
   entry: cargo check
   language: system
   types: [rust]
