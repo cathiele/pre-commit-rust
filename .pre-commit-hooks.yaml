@@ -1,0 +1,36 @@
+- id: cargo-fmt
+  name: cargo fmt
+  entry: cargo fmt
+  language: system
+  types: [rust]
+  pass_filenames: false
+- id: cargo-audit
+  name: carg audit
+  entry: cargo audit
+  language: system
+  types: [rust]
+  pass_filenames: false
+- id: cargo-udep
+  name: carg udep
+  entry: cargo +nightly udep
+  language: system
+  types: [rust]
+  pass_filenames: false
+- id: cargo-check
+  name: carg check
+  entry: cargo check
+  language: system
+  types: [rust]
+  pass_filenames: false
+- id: cargo-clippy
+  name: cargo clippy
+  entry: cargo clippy
+  language: system
+  types: [rust]
+  pass_filenames: false
+- id: cargo-test
+  name: cargo test
+  entry: cargo test
+  language: system
+  types: [rust]
+  pass_filenames: false
